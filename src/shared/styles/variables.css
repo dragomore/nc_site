@@ -1,0 +1,28 @@
+:root {
+  --bg-color-primary: #1a1a1a;
+  --bg-color-secondary: #2a2a2a;
+
+  --text-primary: #f0f0f0;
+  --text-secondary: #b0b0b0;
+
+  --company-name-color: #c9d4ff;
+  --company-subject-color: #94abff;
+
+  --button-bg-color-primary: #64d4ff;
+  --button-bg-primary-hover: #79ddff;
+  --button-bg-color-secondary: #2a2a2a;
+  --button-bg-secondary-hover: #3a3a3a;
+  --button-success: #7edc8f;
+  --button-success-hover: #90e2a0;
+  --button-danger: #ff6b6b;
+  --button-danger-hover: #ff8282;
+
+  --success: #7edc8f;
+  --warning: #ffd166;
+  --error: #ff6b6b;
+
+  --divider: #3a3a3a;
+
+  --h1-header: #ffffff;
+  --h2-header: #f5f5f5;
+}

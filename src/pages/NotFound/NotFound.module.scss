@@ -1,0 +1,23 @@
+.not_found_wrapper {
+  height: calc(100vh - 61px);
+  width: calc(100vw - 101px);
+
+  background-color: var(--bg-color-primary);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    color: var(--text-secondary);
+  }
+
+  h2 {
+    color: var(--text-primary);
+  }
+
+  p {
+    color: var(--text-secondary);
+  }
+}

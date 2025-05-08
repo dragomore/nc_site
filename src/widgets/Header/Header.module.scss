@@ -1,0 +1,30 @@
+.header_wrapper {
+  height: 60px;
+  background-color: var(--bg-color-primary);
+  border-bottom: 1px solid var(--divider);
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  padding-left: 10px;
+
+  .company_name,
+  .company_subject {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .company_name {
+    color: var(--company-name-color);
+    font-weight: bold;
+    font-size: 28px;
+  }
+
+  .company_subject {
+    color: var(--company-subject-color);
+    font-weight: 400;
+    font-size: 18px;
+    font-style: italic;
+  }
+}
