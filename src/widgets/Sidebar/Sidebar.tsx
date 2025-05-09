@@ -19,6 +19,7 @@ export const Sidebar = () => {
         </Link>
         <Link to="/tasks">
           <Image alt={AltText.List} src={list_icon} />
+          <span>{AltText.List}</span>
         </Link>
         <Link to="/deadlines">
           <Image alt={AltText.DeadlineList} src={deadlines_icon} />

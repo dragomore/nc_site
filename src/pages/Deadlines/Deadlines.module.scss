@@ -1,0 +1,36 @@
+.deadlines_wrapper {
+  width: calc(100vw - 101px);
+  height: calc(100vh - 61px);
+
+  background-color: var(--bg-color-primary);
+
+  display: flex;
+  justify-content: center;
+
+  .deadlines_header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    color: #ffffff;
+
+    .month_button {
+      width: 120px;
+      height: 40px;
+
+      cursor: pointer;
+
+      border-radius: 16px;
+      background-color: var(--button-bg-color-secondary);
+      border: 1px solid var(--button-bg-color-primary);
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      &:hover {
+        background-color: var(--button-bg-secondary-hover);
+      }
+    }
+  }
+}

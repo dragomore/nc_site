@@ -1,5 +1,6 @@
 import '../shared/styles/variables.css'
 
+import { Deadlines } from 'pages/Deadlines/Deadlines'
 import { NotFound } from 'pages/NotFound/NotFound'
 import { Route, Routes } from 'react-router-dom'
 import { AppRoutes } from 'shared/routes/appRoutes'
@@ -13,6 +14,7 @@ const App = () => {
       <div className="App_Content">
         <Header />
         <Routes>
+          <Route path={AppRoutes.DEADLINES} element={<Deadlines />} />
           <Route path={AppRoutes.NOT_FOUND} element={<NotFound />} />
         </Routes>
       </div>
